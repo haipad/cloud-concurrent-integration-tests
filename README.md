@@ -5,6 +5,10 @@ Concurrent test framework for cloud event processing with async timing handling.
 ## Setup
 
 1. Clone the repository locally
+```bash
+git clone https://github.com/haipad/cloud-concurrent-integration-tests.git
+cd cloud-concurrent-integration-tests
+```
 2. Install dependencies
 ```bash
 pip install pytest pytest-asyncio httpx pydantic tabulate
