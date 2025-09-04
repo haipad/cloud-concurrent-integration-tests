@@ -16,6 +16,7 @@ pip install pytest pytest-asyncio httpx pydantic tabulate
 Execute 100 concurrent tests:
 ```bash
 pytest tests/test_api_concurrent_requests.py -v
+pytest tests/test_api_concurrent_requests.py -v -s #for more debug logs
 ```
 * HTML results are stored in ```results/``` folder
 * Console results are printed in terminal
