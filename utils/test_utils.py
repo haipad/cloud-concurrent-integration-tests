@@ -93,7 +93,7 @@ def generate_html_report(table_data, count, total_duration, failures):
     for row in table_data:
         html += f'<tr>'
         for cell in row:
-            html += f'<td">{cell}</td>'
+            html += f'<td>{cell}</td>'
         html += "</tr>"
     
     html += """
