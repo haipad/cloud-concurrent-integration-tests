@@ -4,7 +4,8 @@ Concurrent test framework for cloud event processing with async timing handling.
 
 ## Setup
 
-1. Install dependencies
+1. Clone the repository locally
+2. Install dependencies
 ```bash
 pip install pytest pytest-asyncio httpx pydantic tabulate
 ```
